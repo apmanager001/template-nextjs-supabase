@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
-        <Image src="/icon.png" height={100} width={100} alt="Logo Icon" />
+        <Image src="/icon.png" height={100} width={100} alt="Logo Icon" priority/>
         <Link href="/" className="btn btn-ghost text-xl">
           Template
         </Link>

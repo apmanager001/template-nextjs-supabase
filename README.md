@@ -9,6 +9,7 @@
     * Zustand
         -Stores included in src folder, above app folder
     * React Hot Toast
+        - added the alert templates in layout
     * Lucide-react
 
 ## File Structure
