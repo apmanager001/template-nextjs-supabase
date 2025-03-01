@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import HeaderLinks from "./headerLinks";
+import UserInfo from './userInfo'
 
 const Header = () => {
   return (
@@ -22,23 +23,16 @@ const Header = () => {
         <button className="btn btn-ghost">
           <Menu />
         </button>
-
         <ul
           tabIndex="0"
           className="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2 top-12"
         >
           <HeaderLinks />
+          <UserInfo />
         </ul>
       </div>
       <div className="navbar-end hidden lg:flex justify-end">
-        <div className="form-control">
-          <input
-            type="text"
-            name="search"
-            placeholder="Find "
-            className="input input-bordered w-96 border-blue-400 shadow-lg"
-          />
-        </div>
+        <UserInfo />
       </div>
     </div>
   );

@@ -1,7 +1,9 @@
 # Template using NextJs and Supabase
     * Using node 21 to run packages
     * Using and config for Tailwind 4v
-    * Has Login and Logout pages
+    * Has Login and Register pages
+    * Added default 404 page
+
 
 ## Libraries added
     * DaiyUI
@@ -18,11 +20,12 @@
 
 ## File Structure
     * added components under src for header/footer
-    * included header and footer with tempalet links and 
+    * included header and footer with template links and 
 
 ## Changes needed
     - [ ] Update Header and footer Links
     - [ ] Update Icon in Header
+    - [ ] Add Title
     - [ ] Update Metdata for SEO in Layout
     - [ ] Add supabase project info in .env
     - [ ] Update Hero Page
